@@ -22,6 +22,8 @@ RUN apt-get install libexif-dev -y
 RUN go get github.com/xiam/exif
 
 RUN go get github.com/sendgrid/sendgrid-go
+RUN go get github.com/kelvins/geocoder
+RUN go get github.com/codingsince1985/geo-golang
 
 # utils library
 RUN go get github.com/cvhariharan/Utils
